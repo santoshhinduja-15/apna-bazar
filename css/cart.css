@@ -1,0 +1,28 @@
+body {
+  background-color: #53d192;
+}
+
+.cart-table th, .cart-table td {
+  vertical-align: middle;
+}
+
+.banner {
+  background: lightcoral; 
+  border-radius: 20px;
+}
+
+.quantity-input {
+  width: 70px;
+  text-align: center;
+}
+
+.total-card {
+  border-left: 6px solid #36da0d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px; 
+}
+
+.btn-update {
+    background-color: red;
+    color: white;
+}

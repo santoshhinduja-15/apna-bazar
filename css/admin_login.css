@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    background-color: #53d192;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.card-header {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-header img {
+    height: 50px;
+}
+
+.btn-outline-secondary {
+    cursor: pointer;
+}

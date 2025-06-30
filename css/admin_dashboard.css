@@ -1,0 +1,49 @@
+body {
+    background-color: #53d192;
+}
+h1, .lead {
+    text-align: center;
+}
+
+.card {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #555;
+}
+
+.container.my-5 {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-body h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+}
+
+.navbar-brand span {
+    font-size: 1.25rem;
+    font-weight: 600;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+.checkout-banner {
+  background-color: brown;
+  border-radius: 15px;
+}
+.checkout-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
