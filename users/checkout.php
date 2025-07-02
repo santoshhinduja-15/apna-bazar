@@ -89,8 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['place_order'])) {
 
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border border-warning rounded-pill <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border border-warning rounded-pill border-5 my-2">
+ <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border border-warning rounded-pill border-5 my-2 mt-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2 fs-4" href="../index.php">
                 <img src="../images/logo.jpeg" alt="Logo" style="height:40px;">
